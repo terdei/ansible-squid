@@ -74,6 +74,9 @@ squid_cache_peer:
 
 squid_cache_peering: false
 
+squid_never_direct: []
+squid_always_direct: []
+
 squid_http_access:
   - action: deny
     acl:
